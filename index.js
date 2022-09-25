@@ -1,5 +1,5 @@
 //printing
-// console.log('Hello world');
+console.log('Hello world');
 // console.log(2 + 3);
 
 //data types
@@ -50,7 +50,7 @@ let arr = [
 //properties of array
 arr.push('hiii');
 
-console.log(arr);
+// console.log(arr);
 
 //conditional statement
 
@@ -60,9 +60,9 @@ let x = 19;
 if (x > 19) {
   console.log('You can drive');
 } else if (x < 19) {
-  console.log("You can't drive");
+  // console.log("You can't drive");
 } else {
-  console.log('None');
+  // console.log('None');
 }
 
 //switch
@@ -87,13 +87,29 @@ for (let i = 0; i < 10; i++) {
 //while loop
 let j = 0;
 while (j < 10) {
-  console.log(j);
+  // console.log(j);
   j++;
 }
 let k = 0;
 
 //do - while
 do {
-  console.log(k);
+  // console.log(k);
   k++;
 } while (k > 10);
+
+//function
+//function-keyword nameOfTheFunction(parameters)
+// {
+//   statements;
+// }
+function add(a, b) {
+  return a + b;
+}
+console.log(add(2, 3));
+//arrow function
+
+const printNumbers = (a, b) => {
+  // console.log('print from arrow function');
+  return a + b;
+};
